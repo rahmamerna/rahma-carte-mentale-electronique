@@ -1,0 +1,168 @@
+.header1 {
+    background-image: url(aa1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100px; /* ﺔﻧﺎﺨﻟا ﻉﺎﻔﺗﺭا */
+  text-align: center; /* ﻂﺳﻮﻟا ﻲﻓ ﺺﻨﻟا ﻞﻌﺠﻟ */
+  color: red; /* ﺾﻴﺑﺃ ﺺﻨﻟا ﻥﻮﻟ ﻞﻌﺠﻟ */
+  padding-top: 100px; /* ﺓﺭﻮﺼﻟا ﺖﺤﺗ ﻥﻮﻜﻳ ﺚﻴﺤﺑ ﺺﻨﻟا ﻥﺎﻜﻣ ﻞﻳﺪﻌﺘﻟ */
+  margin-bottom: 50px;
+  border-bottom: 1px solid black;
+}
+.header2{
+ background-image: url(a4.png);
+  background-size: cover;
+  background-position: center;
+  height: 100px; /* ﺔﻧﺎﺨﻟا ﻉﺎﻔﺗﺭا */
+  text-align: center; /* ﻂﺳﻮﻟا ﻲﻓ ﺺﻨﻟا ﻞﻌﺠﻟ */
+  color: red; /* ﺾﻴﺑﺃ ﺺﻨﻟا ﻥﻮﻟ ﻞﻌﺠﻟ */
+  padding-top: 100px; /* ﺓﺭﻮﺼﻟا ﺖﺤﺗ ﻥﻮﻜﻳ ﺚﻴﺤﺑ ﺺﻨﻟا ﻥﺎﻜﻣ ﻞﻳﺪﻌﺘﻟ */
+  margin-bottom: 50px;
+  border-bottom: 1px solid black;
+
+}
+nav {
+  margin-bottom: 20px; /* يضيف مساحة 20 بيكسل بين nav والعنصر الذي يليه */
+}
+
+body {
+  background-color: #D2B48C;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid #333;
+  transition: transform 0.5s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.2);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; /* يوضع الزر في الوسط رأسياً */
+  height: 100vh; /* يجعل ارتفاع الحاوية يساوي ارتفاع الشاشة */
+}
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <p style="text-align: center;">نص الصندوق</p>
+</div>
+
+ .image-container figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container figcaption {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+تم استخدام الـ Flexbox لمحاذاة العنوان تحت الصورة، وتم تعديل الخصائص المناسبة للـ <figcaption> لتحسين شكله.
+
+.box h2 {
+  text-align: center;
+}
+
+.box {
+  flex-basis: calc(25% - 20px);
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+   border: 2px solid black; /* يعيد حدودًا سوداء بعرض 2 بيكسل ونمط الخط المستمر */
+}
+.box:hover {
+  background-color: #ccc;
+  font-size: 24px;
+  transition: all 0.2s ease-in-out;
+}
+
+.box:nth-child(1) {
+  background-image: url(c4.jpg);
+}
+
+.box:nth-child(2) {
+  background-image: url(c2.jpg);
+}
+
+.box:nth-child(3) {
+  background-image: url(c3.jpg);
+  order: -1; /* تحديد ترتيب الخانة الثالثة */
+}
+
+.box:nth-child(4) {
+  background-image: url(c1.png);
+}
+
+.box:nth-child(5) {
+  background-image: url(c5.jpg);
+}
+
+
+.box:nth-child(6) {
+    background-image: url( c6.png);
+}
+
+.box:nth-child(7) {
+    background-image: url( c7.png );
+}
+
+.box:nth-child(8) {
+    background-image: url( c8.png );
+    
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.main-green-button {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 9999;
+}
+
+.main-green-button a {
+  display: inline-block;
+  background-color: #4771cb;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 35px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  transition: all .3s;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-green-button a:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5px);
+figcaption {
+  text-align: center;
+  font-size: 18px; /* تغيير حجم الخط */
+  margin-top: 10px; /* إضافة تباعد من الأعلى */
+  margin-bottom: 10px; /* إضافة تباعد من الأسفل */
+   color: #0077be;/* أزرق فاتح */
+}
